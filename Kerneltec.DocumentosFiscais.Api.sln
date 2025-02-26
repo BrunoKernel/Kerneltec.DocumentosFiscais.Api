@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Presentation", "01-Presentation", "{71285B29-67DB-47CD-A3A9-CEDEBCF962AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Application", "02-Application", "{907B124B-925D-4287-B0F5-56D77AA3949C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Domain", "03-Domain", "{DE041C3A-3FA5-48E0-BA0B-DAD3DA38F1AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Infraestructure", "04-Infraestructure", "{EC939D9E-8D1B-46AE-BCCE-884420B1B36A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Tests", "05-Tests", "{A45802AC-DE62-4D01-A80D-CC084CC331E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerneltec.DocumentosFiscais.Domain", "Kerneltec.DocumentosFiscais.Domain\Kerneltec.DocumentosFiscais.Domain\Kerneltec.DocumentosFiscais.Domain.csproj", "{1B215B70-3F99-03C0-ED3C-3F6400D0D944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerneltec.DocumentosFiscais.Infra.Data", "Kerneltec.DocumentosFiscais.Infra.Data\Kerneltec.DocumentosFiscais.Infra.Data.csproj", "{7CDEBA27-A4E4-4413-91F3-7A67CD7011F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerneltec.DocumentosFiscais.Application", "Kerneltec.DocumentosFiscais.Application\Kerneltec.DocumentosFiscais.Application.csproj", "{6750DE1E-12AE-4610-9E1A-FD9FFF5DB319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerneltec.DocumentosFiscais.Infra.IoC", "Kerneltec.DocumentosFiscais.Infra.IoC\Kerneltec.DocumentosFiscais.Infra.IoC.csproj", "{966FFC72-52C7-4B82-B3F1-F18E936A6860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerneltec.DocumentosFiscais.Infra.Integrations", "Kerneltec.DocumentosFiscais.Infra.Integrations\Kerneltec.DocumentosFiscais.Infra.Integrations.csproj", "{03386954-51C2-4A65-8A5B-DD79E8C6BA36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerneltec.DocumentosFiscais.Tests", "Kerneltec.DocumentosFiscais.Tests\Kerneltec.DocumentosFiscais.Tests.csproj", "{FE322F3D-0CFB-4D70-95C0-F5440F108FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerneltec.DocumentosFiscais.WebApi", "Kerneltec.DocumentosFiscais.WebApi\Kerneltec.DocumentosFiscais.WebApi.csproj", "{28841807-713B-423D-AA1D-8A4C13DB6E25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B215B70-3F99-03C0-ED3C-3F6400D0D944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B215B70-3F99-03C0-ED3C-3F6400D0D944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B215B70-3F99-03C0-ED3C-3F6400D0D944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B215B70-3F99-03C0-ED3C-3F6400D0D944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDEBA27-A4E4-4413-91F3-7A67CD7011F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDEBA27-A4E4-4413-91F3-7A67CD7011F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDEBA27-A4E4-4413-91F3-7A67CD7011F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDEBA27-A4E4-4413-91F3-7A67CD7011F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6750DE1E-12AE-4610-9E1A-FD9FFF5DB319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6750DE1E-12AE-4610-9E1A-FD9FFF5DB319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6750DE1E-12AE-4610-9E1A-FD9FFF5DB319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6750DE1E-12AE-4610-9E1A-FD9FFF5DB319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966FFC72-52C7-4B82-B3F1-F18E936A6860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966FFC72-52C7-4B82-B3F1-F18E936A6860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966FFC72-52C7-4B82-B3F1-F18E936A6860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966FFC72-52C7-4B82-B3F1-F18E936A6860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03386954-51C2-4A65-8A5B-DD79E8C6BA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03386954-51C2-4A65-8A5B-DD79E8C6BA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03386954-51C2-4A65-8A5B-DD79E8C6BA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03386954-51C2-4A65-8A5B-DD79E8C6BA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE322F3D-0CFB-4D70-95C0-F5440F108FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE322F3D-0CFB-4D70-95C0-F5440F108FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE322F3D-0CFB-4D70-95C0-F5440F108FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE322F3D-0CFB-4D70-95C0-F5440F108FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28841807-713B-423D-AA1D-8A4C13DB6E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28841807-713B-423D-AA1D-8A4C13DB6E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28841807-713B-423D-AA1D-8A4C13DB6E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28841807-713B-423D-AA1D-8A4C13DB6E25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71285B29-67DB-47CD-A3A9-CEDEBCF962AF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{907B124B-925D-4287-B0F5-56D77AA3949C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DE041C3A-3FA5-48E0-BA0B-DAD3DA38F1AF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{EC939D9E-8D1B-46AE-BCCE-884420B1B36A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A45802AC-DE62-4D01-A80D-CC084CC331E3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1B215B70-3F99-03C0-ED3C-3F6400D0D944} = {DE041C3A-3FA5-48E0-BA0B-DAD3DA38F1AF}
+		{7CDEBA27-A4E4-4413-91F3-7A67CD7011F8} = {EC939D9E-8D1B-46AE-BCCE-884420B1B36A}
+		{6750DE1E-12AE-4610-9E1A-FD9FFF5DB319} = {907B124B-925D-4287-B0F5-56D77AA3949C}
+		{966FFC72-52C7-4B82-B3F1-F18E936A6860} = {EC939D9E-8D1B-46AE-BCCE-884420B1B36A}
+		{03386954-51C2-4A65-8A5B-DD79E8C6BA36} = {EC939D9E-8D1B-46AE-BCCE-884420B1B36A}
+		{FE322F3D-0CFB-4D70-95C0-F5440F108FFF} = {A45802AC-DE62-4D01-A80D-CC084CC331E3}
+		{28841807-713B-423D-AA1D-8A4C13DB6E25} = {71285B29-67DB-47CD-A3A9-CEDEBCF962AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61BF2B03-9670-4F13-B502-7C2A8917BE20}
+	EndGlobalSection
+EndGlobal
