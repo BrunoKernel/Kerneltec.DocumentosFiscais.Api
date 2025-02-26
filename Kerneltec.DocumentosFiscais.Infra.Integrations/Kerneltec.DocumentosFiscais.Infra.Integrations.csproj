@@ -6,4 +6,31 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ACBrLib.Core">
+      <HintPath>Acbr\AcbrNFeLib\ACBrLib.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ACBrLib.NFeMT">
+      <HintPath>Acbr\AcbrNFeLib\ACBrLib.NFeMT.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Acbr\NFeLib\ACBrNFe64.dll">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="Acbr\NFeLib\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
 </Project>

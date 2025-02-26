@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Kerneltec.DocumentosFiscais.Domain\Kerneltec.DocumentosFiscais.Domain\Kerneltec.DocumentosFiscais.Domain.csproj" />
+    <ProjectReference Include="..\Kerneltec.DocumentosFiscais.Infra.Integrations\Kerneltec.DocumentosFiscais.Infra.Integrations.csproj" />
   </ItemGroup>
 
 </Project>
